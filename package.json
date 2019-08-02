@@ -1,0 +1,18 @@
+{
+  "name": "k8s-config",
+  "version": "0.1.0",
+  "description": "Tool to check k8s config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Navarijo",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.5.0"
+  },
+  "bin": {
+    "k8sconfig": "bin/index.js"
+  }
+}
